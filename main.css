@@ -1,0 +1,209 @@
+/* Estilos Globais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #FF6F61; /* Cor vibrante de destaque */
+    padding: 20px 0;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .carrinho a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Seção de Produtos */
+#produtos {
+    background-color: #FFF8E1; /* Amarelo suave */
+    padding: 40px 0;
+    text-align: center;
+}
+
+#produtos h2 {
+    font-size: 32px;
+    color: #FF6F61;
+    margin-bottom: 20px;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.produto {
+    background-color: #fff;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    font-size: 24px;
+    color: #FF6F61;
+    margin-top: 10px;
+}
+
+.produto p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.produto button {
+    background-color: #FF6F61;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.produto button:hover {
+    background-color: #E04E42;
+}
+
+/* Seção Sobre */
+#sobre {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#sobre h2 {
+    font-size: 32px;
+    color: #FF6F61;
+    margin-bottom: 20px;
+}
+
+#sobre p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Seção Contato */
+#contato {
+    background-color: #FFEBEE; /* Rosa suave */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 32px;
+    color: #FF6F61;
+    margin-bottom: 20px;
+}
+
+#contato form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contato form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#contato form input, 
+#contato form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #FF6F61;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+#contato form button {
+    background-color: #FF6F61;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#contato form button:hover {
+    background-color: #E04E42;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer .redes-sociais a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer .redes-sociais a:hover {
+    text-decoration: underline;
+}
